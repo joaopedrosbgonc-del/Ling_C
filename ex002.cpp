@@ -3,20 +3,13 @@
 #include <stdio.h>
 
 int main(){
-	float n1, n2, n3, soma, media;
-	
-	printf("Nota 1\n--> ");
-	scanf("%f", &n1);
-	
-	printf("Nota 2\n--> ");
-	scanf("%f", &n2);
-	
-	printf("Nota 3\n--> ");
-	scanf("%f", &n3);
-	
-	soma = n1 + n2 + n3;
-	
+	float num, i, soma=0, media;
+
+	for(i=1; i<=3; i++){
+		printf("Escreva a nota %.0f\n--> ", i);
+		scanf("%f", &num);
+		soma += num;
+	}
 	media = soma / 3;
-	
-	printf("A media das notas e de: %.2f", media);
+	printf("A media aritmetica e de: %.2f", media);
 }
