@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 
 int main(){
@@ -19,3 +20,12 @@ int main(){
 	
 	return 0;
 }
+=======
+//Faça um programa que receba três notas e seus respectivos pesos, calcule e mostre a média ponderada dessas notas
+
+#include <stdio.h>
+
+int main(){
+	
+}
+>>>>>>> 94f97b3139e5dd6129b04a3d8ac61e36db0a668e
