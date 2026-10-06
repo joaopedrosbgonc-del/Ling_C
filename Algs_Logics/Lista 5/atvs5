@@ -1,0 +1,156 @@
+
+// ============================================================================
+// EXERCÍCIO 1 (Vetor A - Operações básicas e modificação)
+// ============================================================================
+/*
+#include 
+
+int main() {
+    // (a) Atribua os valores: 1, 0, 5, -2, -5, 7
+    int A[6] = {1, 0, 5, -2, -5, 7};
+    int soma;
+
+    // (b) Soma entre as posições A[0], A[1] e A[5]
+    soma = A[0] + A[1] + A[5];
+    printf("Soma dos valores A[0] + A[1] + A[5]: %d\n", soma);
+
+    // (c) Modifique o vetor na posição 4 para o valor 100
+    A[4] = 100;
+
+    // (d) Mostre na tela cada valor do vetor A, um em cada linha
+    printf("\nValores do vetor A:\n");
+    for (int i = 0; i < 6; i++) {
+        printf("%d\n", A[i]);
+    }
+
+    return 0;
+}
+*/
+
+// ============================================================================
+// EXERCÍCIO 2 (Ler e mostrar 6 valores inteiros)
+// ============================================================================
+/*
+#include 
+
+int main() {
+    int valores[6];
+
+    printf("Digite 6 valores inteiros:\n");
+    for (int i = 0; i < 6; i++) {
+        printf("Valor %d: ", i + 1);
+        scanf("%d", &valores[i]);
+    }
+
+    printf("\nValores lidos:\n");
+    for (int i = 0; i < 6; i++) {
+        printf("%d ", valores[i]);
+    }
+    printf("\n");
+
+    return 0;
+}
+*/
+
+// ============================================================================
+// EXERCÍCIO 3 (Quadrado das componentes em outro vetor)
+// ============================================================================
+/*
+#include 
+
+int main() {
+    float original[10], quadrado[10];
+
+    printf("Digite 10 numeros reais:\n");
+    for (int i = 0; i < 10; i++) {
+        printf("Elemento %d: ", i + 1);
+        scanf("%f", &original[i]);
+        quadrado[i] = original[i] * original[i];
+    }
+
+    printf("\nVetor Original:\n");
+    for (int i = 0; i < 10; i++) {
+        printf("%.2f ", original[i]);
+    }
+
+    printf("\nVetor com os Quadrados:\n");
+    for (int i = 0; i < 10; i++) {
+        printf("%.2f ", quadrado[i]);
+    }
+    printf("\n");
+
+    return 0;
+}
+*/
+
+// ============================================================================
+// EXERCÍCIO 4 (Soma de duas posições X e Y de um vetor de 8 posições)
+// ============================================================================
+/*
+#include 
+
+int main() {
+    int v[8];
+    int x, y;
+
+    printf("Digite 8 valores inteiros para o vetor:\n");
+    for (int i = 0; i < 8; i++) {
+        printf("Posicao %d: ", i);
+        scanf("%d", &v[i]);
+    }
+
+    printf("Digite a primeira posicao (X entre 0 e 7): ");
+    scanf("%d", &x);
+    printf("Digite a segunda posicao (Y entre 0 e 7): ");
+    scanf("%d", &y);
+
+    if (x >= 0 && x < 8 && y >= 0 && y < 8) {
+        int soma = v[x] + v[y];
+        printf("A soma dos valores nas posicoes %d e %d (v[%d] + v[%d] = %d + %d) e: %d\n", 
+               x, y, x, y, v[x], v[y], soma);
+    } else {
+        printf("Posicoes X ou Y invalidas!\n");
+    }
+
+    return 0;
+}
+*/
+
+// ============================================================================
+// EXERCÍCIO 5 (Contar e escrever quantos valores pares possui um vetor de 10 posições)
+// ============================================================================
+/*
+#include 
+
+int main() {
+    int v[10];
+    int qtdPares = 0;
+
+    printf("Digite 10 numeros inteiros:\n");
+    for (int i = 0; i < 10; i++) {
+        printf("Elemento %d: ", i + 1);
+        scanf("%d", &v[i]);
+        if (v[i] % 2 == 0) {
+            qtdPares++;
+        }
+    }
+
+    printf("O vetor possui %d numeros pares.\n", qtdPares);
+    return 0;
+}
+*/
+
+// ============================================================================
+// EXERCÍCIO 6 (Maior e menor elemento de um vetor de 10 posições)
+// ============================================================================
+/*
+#include 
+
+int main() {
+    int v[10];
+    int maior, menor;
+
+    printf("Digite 10 numeros inteiros:\n");
+    for (int i = 0; i < 10; i++) {
+        printf("Elemento %d: ", i
+*/
